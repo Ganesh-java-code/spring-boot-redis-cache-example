@@ -24,7 +24,7 @@ public class RedisController {
     @GetMapping("/get")
     public String getData(@RequestParam String key){
         service.getData(key);
-        return "retrieved data...";
+        return "retrieved data in getData method...";
     }
 
 
